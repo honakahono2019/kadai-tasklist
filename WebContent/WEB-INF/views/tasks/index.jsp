@@ -14,7 +14,7 @@
                     <a href="${pageContext.request.contextPath}/show?id=${task.id}">
                         <c:out value="${task.id}" />
                     </a>
-                    ：<c:out value="${task.id}"></c:out> &gt; <c:out value="${task.content}" />
+                    ：<c:out value="中野"></c:out> &gt; <c:out value="${task.content}" />
                 </li>
             </c:forEach>
         </ul>
@@ -32,7 +32,7 @@
                 </c:choose>
             </c:forEach>
         </div>
-        <p><a href="${pageContext.request.contextPath}/new">新規メッセージの投稿</a></p>
+        <p><a href="${pageContext.request.contextPath}/new">新規タスクの登録(投稿)</a></p>
 
     </c:param>
 </c:import>
